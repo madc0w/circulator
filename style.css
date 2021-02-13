@@ -1,0 +1,16 @@
+body {
+	font-family: Lato;
+}
+
+#header {
+	font-weight: bold;
+	font-size: 28px;
+	margin-bottom: 12px;
+}
+
+#canvas {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000;
+	border-radius: 8px;
+}
