@@ -1,9 +1,10 @@
 const initTimeFactor = 80;
-const radiusFactor = 0.4;
+const radiusFactor = 0.45;
 const numIts = 100;
 let canvas, ctx, t, prevTip;
 
 function onLoad() {
+	document.getElementById('radius-factor').innerHTML = radiusFactor;
 	canvas = document.getElementById('canvas');
 	ctx = canvas.getContext('2d');
 	const size = Math.min(innerWidth, innerHeight) - 80;
