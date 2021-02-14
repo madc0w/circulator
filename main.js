@@ -81,7 +81,8 @@ function draw() {
 function addCanvas() {
 	const canvasContainer = document.getElementById('canvas-container');
 	const id = `canvas-${radiusFactor.toFixed(3)}`;
-	canvasContainer.innerHTML += `<div><div>${radiusFactor.toFixed(3)}</div><canvas id="${id}"></canvas></div>`;
+	// canvasContainer.innerHTML += `<div><div>${radiusFactor.toFixed(3)}</div><canvas id="${id}"></canvas></div>`;
+	canvasContainer.innerHTML += `<div><canvas id="${id}"></canvas></div>`;
 	const canvas = document.getElementById(id);
 	const size = Math.min(innerWidth, innerHeight) - 80;
 	canvas.height = size;
