@@ -1,6 +1,6 @@
 const initRadiusFactor = 0.1;
 const radiusFactorIncrement = 0.001;
-const numFrames = 80;
+const numFrames = 320;
 const initTimeFactor = 120;
 const numIts = 8;
 const contexts = [];
